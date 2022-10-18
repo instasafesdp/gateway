@@ -138,7 +138,7 @@ func parseToLinuxRouteStruct(output []byte) (linuxRouteStruct, error) {
 		}
 
 		// The default interface is the one that's 0
-		if destination != 0 && mask != 0 {
+		if destination != 0 || mask != 0 {
 			continue
 		}
 
