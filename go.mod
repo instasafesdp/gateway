@@ -1,3 +1,3 @@
-module github.com/jackpal/gateway
+module github.com/instasafesdp/gateway
 
 go 1.14
